@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<link href="form.css" rel="stylesheet">
+<body>
+    <fieldset>
+        <legend>Formulir Customer</legend>
+        <p>Nama     : <input type="text" name="nama"></p>
+        <p>Telpon   : <input type="No Telpon" name="No Telepon"></p>
+        <p>Alamat   : <input type="text" name="alamat"></p>
+        <p>Tgl Order   : <label for="dateInput"></label>
+            <input type="date" id="dateInput" name="dateInput"></p>
+    <p>
+        Metode Service:
+        <input type="radio" name="jk" value="Delivery" checked />
+        Delivery
+        <input type="radio" name="jk" value="PickUp" checked />
+        PickUp
+    </p>
+    <p>
+        Metode Pembayaran:
+        <select>
+            <option>Cash</option>
+            <option>Debit</option>
+            <option>E-Money</option>
+        </select>
+    </p>
+    <p>
+        Silahkan tulis pesanan anda sesuai menu yang tertera!<br>
+        <textarea rows="10" cols="60" placeholder="Tulis pesanan disini!" ></textarea>
+    </p>
+    <p><input type="submit" value="Submit"></p>
+    </fieldset>
+</form>
+<p>
+<button class="back"><a href="index.html">Home</a></button>
+</body></p>
+</html>

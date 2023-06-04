@@ -1,0 +1,12 @@
+.btn{
+    justify-content: center;
+    text-align: center;
+    height:fit-content;
+}
+body{
+    background-color: #ADD8E6;
+}
+table{
+    width: auto;
+    height: auto;
+}
